@@ -7,7 +7,7 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const articlesRouter = require('./articles/router')
 const usersRouter = require('./users/router')
-const commentsRouter = require('./comments/comments-router')
+const commentsRouter = require('./comments/router')
 
 
 const app = express()
